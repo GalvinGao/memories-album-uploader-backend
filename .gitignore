@@ -1,2 +1,4 @@
 config.go
 Makefile
+.idea/
+.DS_Store
