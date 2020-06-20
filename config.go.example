@@ -1,0 +1,24 @@
+package main
+
+const (
+	UpyunBucket          = "Bucket"
+	UpyunOperator        = "Operator"
+	UpyunPassword        = "Password"
+	UpyunPrefix          = "Prefix"
+	UpyunThumbPrefix     = "ThumbPrefix"
+	UpyunTokenExpiration = 10 // in minutes
+
+	UpyunUploadContentLengthRange = "1,10240000"
+
+	UpyunUploadImageHeightRange     = "1,8192"
+	UpyunUploadImageWidthRange      = "1,8192"
+	UpyunUploadPostProcessingParams = "/max/500"
+	UpyunUploadSyncProcessingParams = "/rotate/auto"
+
+	Host = "Host" // required for upyun callback
+
+	ImageTimeFormat = "2006-01-02T15:04:05-0700"
+	UploadImageType = "upload"
+)
+
+var UpyunUploadPermittedFileTypes = []string{"jpg", "jpeg", "png", "gif"}
